@@ -1,0 +1,49 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SumRecursiveTest, org.scalatest.tools.Framework$$anon$1@5d0c47df, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MaxFromScratchTest, org.scalatest.tools.Framework$$anon$1@5d0c47df, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BinarySearchTest, org.scalatest.tools.Framework$$anon$1@5d0c47df, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FlattenArrayTest, org.scalatest.tools.Framework$$anon$1@5d0c47df, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBinarySearchTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- find a value in array with one element[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- finds a value in the middle of an array[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- finds a value at the beginning of an array[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- finds a value at the end of an array[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- finds a value in an array of odd length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- finds a value in an array of even length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- identifies that a value is not included in the array[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SquareRootNewtonTest, org.scalatest.tools.Framework$$anon$1@5d0c47df, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a value smaller than the array's smallest value is not found[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a value larger than the array's largest value is not found[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ETLTest, org.scalatest.tools.Framework$$anon$1@5d0c47df, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- nothing is found in an empty array[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- nothing is found when the left and right bounds cross[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMaxFromScratchTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test order list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFlattenArrayTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test flat no nested list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- flattens array with just integers present[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 5 level nesting[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 6 level nesting[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 6 level nest list with null values[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- all values in nested list are null[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSumRecursiveTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test the simplest case[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSquareRootNewtonTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test simplest case[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mETLTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test single letter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- single score with multiple letters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiple score with multiple letters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- mutiple score with repeated value[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiple scores with differing numbers of letters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 659 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 25[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 25, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ETLTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FlattenArrayTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SquareRootNewtonTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BinarySearchTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SumRecursiveTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MaxFromScratchTest[0m

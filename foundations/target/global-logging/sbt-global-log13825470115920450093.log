@@ -1,0 +1,57 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 10 Scala sources to /home/max/Documents/max/scala_intensive/foundations/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/max/Documents/max/scala_intensive/foundations/src/main/scala/learning/linkedlist/SimpleLinkedList.scala:1:1: [0m
+[0m[[0m[0minfo[0m] [0m[0mFound names but no class, trait or object is defined in the compilation unit.[0m
+[0m[[0m[0minfo[0m] [0m[0mThe incremental compiler cannot record the dependency information in such case.[0m
+[0m[[0m[0minfo[0m] [0m[0mSome errors like unused import referring to a non-existent class might not be reported.[0m
+[0m[[0m[0minfo[0m] [0m[0m    [0m
+[0m[[0m[0minfo[0m] [0m[0mpackage learning[0m
+[0m[[0m[0minfo[0m] [0m[0m^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/max/Documents/max/scala_intensive/foundations/src/main/scala/learning/SumRecursive.scala:7:42: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: List(_), Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def sumA(numberList: List[Int]): Int = numberList match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 6 Scala sources to /home/max/Documents/max/scala_intensive/foundations/target/scala-2.13/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSumRecursiveTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test the simplest case[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMaxFromScratchTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test order list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSquareRootNewtonTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test simplest case[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBinarySearchTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- find a value in array with one element[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- finds a value in the middle of an array[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- finds a value at the beginning of an array[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- finds a value at the end of an array[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- finds a value in an array of odd length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- finds a value in an array of even length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- identifies that a value is not included in the array[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a value smaller than the array's smallest value is not found[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a value larger than the array's largest value is not found[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- nothing is found in an empty array[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- nothing is found when the left and right bounds cross[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFlattenArrayTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test flat no nested list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- flattens array with just integers present[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 5 level nesting[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 6 level nesting[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 6 level nest list with null values[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- all values in nested list are null[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mETLTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test single letter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- single score with multiple letters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiple score with multiple letters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- mutiple score with repeated value[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiple scores with differing numbers of letters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 786 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 25[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 25, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 20 s, completed Aug 21, 2022, 11:13:53 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

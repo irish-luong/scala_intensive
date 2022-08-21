@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /home/max/Documents/max/scala_intensive/foundations/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock ...[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/max/Documents/max/scala_intensive/foundations/src/main/scala/learning/linkedlist/SimpleLinkedList.scala:1:1: [0m
+[0m[[0m[0minfo[0m] [0m[0mFound names but no class, trait or object is defined in the compilation unit.[0m
+[0m[[0m[0minfo[0m] [0m[0mThe incremental compiler cannot record the dependency information in such case.[0m
+[0m[[0m[0minfo[0m] [0m[0mSome errors like unused import referring to a non-existent class might not be reported.[0m
+[0m[[0m[0minfo[0m] [0m[0m    [0m
+[0m[[0m[0minfo[0m] [0m[0mpackage learning[0m
+[0m[[0m[0minfo[0m] [0m[0m^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/max/Documents/max/scala_intensive/foundations/src/main/scala/learning/SumRecursive.scala:7:42: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: List(_), Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def sumA(numberList: List[Int]): Int = numberList match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /home/max/Documents/max/scala_intensive/foundations/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock.[0m

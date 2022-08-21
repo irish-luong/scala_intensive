@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 17 products, 10 sources, 1 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/learning/SquareRootNewton.scala, ${BASE}/src/main/scala/learning/BinarySearch.scala, ${BASE}/src/main/scala/learning/MaxFromScratch.scala, ${BASE}/src/main/scala/learning/ETL.scala, ${BASE}/src/main/scala/learning/Twofer.scala, ${BASE}/src/main/scala/learning/linkedlist/LinkedList.scala, ${BASE}/src/main/scala/learning/ChecksumAccumulator.scala, ${BASE}/src/main/scala/learning/linkedlist/SimpleLinkedList.scala, ${BASE}/src/main/scala/learning/SumRecursive.scala, ${BASE}/src/main/scala/learning/FlattenArray.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
